@@ -1,0 +1,30 @@
+.container {
+	display: flex;
+	gap: 10px;
+
+	input {
+		padding: 20px;
+		width: 40vw;
+		border-radius: 10px;
+		border: 1px solid rgb(158, 158, 158);
+		font-size: 25px;
+		outline: none;
+		font-weight: 700;
+	}
+
+	button {
+		padding: 10px;
+		width: 100px;
+		border-radius: 10px;
+		border: 1px solid rgb(158, 158, 158);
+		background-color: transparent;
+		cursor: pointer;
+		font-size: 25px;
+		font-weight: 700;
+		transition: 0.3s;
+	}
+
+	button:hover {
+		background-color: rgb(247, 247, 247);
+	}
+}

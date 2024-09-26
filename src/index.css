@@ -1,0 +1,8 @@
+* {
+	font-family: gilroy;
+}
+
+body {
+	display: flex;
+	padding: 50px;
+}
